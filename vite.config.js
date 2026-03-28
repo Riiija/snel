@@ -6,5 +6,6 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true,
+    allowedHosts: ['sb-115ovf2pxw60.vercel.run']
   },
 })
